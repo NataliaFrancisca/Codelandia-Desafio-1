@@ -20,7 +20,8 @@ _________
 
 #### 🗒️ Coisas que preciso implementar:
 
-- [ ] Deixar responsivo
-- [ ] Conferir as margens e paddings
+- [X] Deixar responsivo
+- [X] Conferir as margens e paddings
+- [ ] Pesquisa das noticias
 
 
