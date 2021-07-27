@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lexend+Deca&display=swap');
-
-/*font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-*/
-
 *{
 	margin:0;
 	padding: 0;
@@ -20,7 +15,7 @@ font-family: 'Lexend Deca', sans-serif;
   --title: #313131;
   --text: #B6B6B6;
   
-  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%); 
 }
 
 body{
@@ -49,7 +44,7 @@ body{
 	border-width: 0;
 }
 
-.container-search{
+header{
 	background: var(--linear);
 
 	height: 250px;
@@ -60,8 +55,9 @@ body{
 	align-items: center;
 }
 
-.container-search nav{
-	width: 901px;
+header nav{
+	width: 900px;
+	max-width: 800px;
 	height: 168px;
 
 	display: flex;
@@ -70,19 +66,20 @@ body{
 	align-items: center;
 }
 
-.container-search nav > div{
+header nav > div{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
 
-.container-search nav div > h1,h2{
+header nav div > h1,h2{
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 }
 
-.container-search .container-input{
+header .container-input{
 	width: 900px;
+	max-width: 800px;
 	height: 65px;
 
 	background-color: rgba(255,255,255,0.2);
