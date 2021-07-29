@@ -155,6 +155,7 @@ header .container-input{
 .news article .container-date-like i{
 	color: var(--blue-dark);
 	font-size: 21px;
+	cursor: pointer;
 }
 
 .new{
